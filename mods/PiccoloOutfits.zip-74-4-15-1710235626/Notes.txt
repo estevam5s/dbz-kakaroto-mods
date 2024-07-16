@@ -1,0 +1,35 @@
+Suggestions and Changes:
+
+1. Something from here "AT\Content\Blueprints\Character\C003Z" is blocking Team Bardock Great Ape versus mode enemies to function. They are working when I renaming the folder.
+2. "AT\Content\Parameter\DT_SkillPalette", this file contains all custom versus mode characters battle ai's. Without it the characters won't have any actions, they just standing idle. If there is something imoportant in it for Limitless, I advise to seek me, so I can update it with your lines. I renamed it in this compatibilty update, so it can't block the ai's.
+3. The Developers made a mistake when they created Auto Super Saiyan skill for Future Gohan, because it's now showing in the skill table by default. You have to modify the files below in order to make it work:In DT_SkillTree at P_C002E_P_Z20_C002A_S_SKL007_LV01, you have to rename the Skill entry from P_Z20_C002A_S_SKL007 to P_Z20_C002E_S_SKL007. Also in PassiveSkillTable at P_Z20_C002E_S_SKL007, you have to set IsSuperPassive to False. Unfortunately it's an integrated skill and you have to do this in every future update, because the line is in the middle of the asset. A little help: it's SaveNo number is 1200, so you can find this relatively easily.
+4. In PassiveSkillTable there are a couple of know how skills which are locked for other characters by the Bonyu Training. In order to unlock you have to set IsSuperPassive to False. Of course they need character specific entries into DT_SkillTree as well to make them work. Some of them are very useful, like Killer Co-op, Self Medication, King of KI. I unlocked them for the playable characters, but in case you want to unlock and build an enemy character to playable, these could be very useful.
+5. I added 5 more variants to Cpl003, these are Team Bardock's great ape forms. Also I added 2 more variants to Piccolo for Kami and Nail. I took extra care to not damage your custom transformation skins.
+6. I had to rename SS1 Bardock's head to cpl027p2c04s1d1_head, because that's the SS1 head my Bardock's Outfits using. I thought it's better to rename one file, than modify dozens. It's in Variation08Cpl027.
+7. I had to remote the AutoActivatePriority from Gohan's and Future Trunks' transformation in order to make all 3 Gohans and Teen Trunks to work. If you want to use want a specific transformations when they are support characters just equip an auto transformation.
+
+New Features:
+
+Added new variants into DA_VariationMesh so there won't be any conflicts with Versus Mode.
+All Free Roam and Advanced Variant transformations are working natively in Limitless, there's no need for other mods to work: Super Vegeta, Super Trunks, Teen Trunks SS1, Vegito SSG, SSB.
+All playable characters got almost all Super Passive Skills, even those who can't unlock them.
+I extend Teen Trunks and Bardock with 3 steps LongBlowoffChase like the other main characters.
+Future Gohan One Armed, DLC5 Kid Goku and Tien now can use coop skill with animations.
+If you are using AdvancedVariant_ThreeMainGohan, you can use all three Gohans in the game,, but they are sharing on the same skills. This is the case for Kid and Teen Goku in DLC5 too.
+I added 9 new skills from various characters to each other:
+Goku: Rapid-Fire Ki Wave (3 levels)
+Adult Gohan: Consecutive Energy Blast (3 levels)
+Adult Gohan: Limit Breaker Kamehameha
+Piccolo: Crushing Strike:
+Future Trunks: Massive Strike:
+Future Trunks: Ultimate Consecutive Energy Blast (3 levels)
+Future Gohan: Consecutive Energy Blast:
+Teen Future Trunks: Consecutive Energy Blast (3 levels)
+Teen Future Trunks: Massive Strike
+Kid Gohan can use Rapid-Fire Ki Wave, Consecutive Energy Blast, Super Dragon Flight and Dragon Hammer Fist
+Teen Gohan can use Super Rapid-Fire Ki Wave, Consecutive Energy Blast (2 levels) and Super Kamehameha
+
+
+Things I couldn't fix:
+Super Saiyan skills are not working with both Vegito and Gotenks
+Somehow, Auto Super Saiyan 3 is not triggering with Gotenks, despite everything seems to look fine

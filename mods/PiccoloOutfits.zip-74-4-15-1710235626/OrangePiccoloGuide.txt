@@ -1,0 +1,11 @@
+How to make Orange Piccolo to work with Limitless Guide
+
+The goal is to make 550_PiccoloDBSSHTransformations_P.pak to overwrite Limitless, therefore you have to rename it.
+Currently it's name is "zzzzzzzzzzLimitless V4 EOZ! -- PART 1 A Reckon5 Expansion Pack.pak" (don't count the double quotes)
+Rename it to 500_Limitless_P.pak for example
+Any addon are tied to Limitless, you have to rename them as well,
+for exmple zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzBetterIcons.pak to 505_BetterIcons_P.pak
+Remember the higher number always overwrites the lower one.
+Just make sure that 550_PiccoloDBSSHTransformations_P.pak should be on higher number than 500_Limitless_P.pak
+
+Why I don't add z's to my mod's name? Simply because I prefer my files to be organized!
