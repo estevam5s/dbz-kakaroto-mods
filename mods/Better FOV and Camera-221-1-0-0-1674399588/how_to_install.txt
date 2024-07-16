@@ -1,0 +1,6 @@
+How to install:
+
+1. Navigate to your game folder and go to \DRAGON BALL Z KAKAROT\AT\Content\Paks\~mods\
+2. If the ~mods folder doesn't exist, create it
+3. Pick only one of the files and extract/drag it into the ~mods folder. If you decide to try another one, delete the one you extracted previously
+4. Start the game and have fun
