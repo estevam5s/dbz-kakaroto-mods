@@ -1,0 +1,41 @@
+"851850"
+{
+	"ChangeNumber"		"65"
+	"ostype"		"0"
+	"SystemSave0"
+	{
+		"root"		"0"
+		"size"		"4060624"
+		"localtime"		"1721230484"
+		"time"		"1721230483"
+		"remotetime"		"1721230483"
+		"sha"		"a0f1f33b245c7cac5e41f6af92e42d9feb910165"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"AutoSave0"
+	{
+		"root"		"0"
+		"size"		"2511360"
+		"localtime"		"1721230484"
+		"time"		"1721230483"
+		"remotetime"		"1721230483"
+		"sha"		"0898243d327e54fd5b752a916e5557b582bcc095"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"ManualSave1"
+	{
+		"root"		"0"
+		"size"		"2510592"
+		"localtime"		"1721230020"
+		"time"		"1721230019"
+		"remotetime"		"1721230019"
+		"sha"		"e20550768eecfbff07653e129bcdc7590de81444"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}
